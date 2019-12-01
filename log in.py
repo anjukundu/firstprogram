@@ -33,7 +33,7 @@ def show():
     b1['text']='Hide'
     b1['command']=hide
 master.title('Log in')
-master.config(bg='royalblue4')
+master.config(bg='red')
 l1=Label(master,bg='royalblue4',fg='white',text='Enter username',font=(' Segoe UI',15))
 l1.pack(side='top')
 e1=Entry(master,width=15)
